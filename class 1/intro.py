@@ -1,7 +1,17 @@
-print("hello")
+print("add",10-5,"sub",10-5,"mul",10*5)
+print(f"add {10+5} sub {10-5} mul {10*5}")
+print(1,end="\n")
+print(1,2,3,4)
+print("parth\n"*10)
 
-print("Parth \n"*10)
-
-# 1. git add .
-# 2. git commit -m "message about work u have complted"
-# 3. git push
+print("Parth",end="***")
+print("Keshav",end="----")
+print("Kalumali")
+print("sum",170+120)
+print(f"sum {170+120}")
+print(f"sub {170-120}")
+print(f"mul {170*120}")
+print(f"div {170/120}")
+print(f"floor div {170//120}")
+print(f"remainder {265 % 10}")
+print(f"10 base , 5 is power: {10**5}")  
